@@ -3,8 +3,13 @@ import './../MobileComponent/MobileComponent.css'
 
 const MobileComponent = () => {
   return (
-    <div>
-        Mobile
+    <div className='container'>
+        <div className='image-container'>
+            <img src="" alt="" />
+        </div>
+        <div className='info-container'>
+            
+        </div>
     </div>
   )
 }
