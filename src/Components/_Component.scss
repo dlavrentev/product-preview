@@ -1,0 +1,13 @@
+@import "./../Styles/Variables";
+
+.container {
+  max-width: 343px;
+  background-color: $neutralWhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  img {
+    width: 100%;
+  }
+}

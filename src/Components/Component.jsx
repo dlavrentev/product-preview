@@ -1,14 +1,12 @@
 import React from "react";
-import "./../Components/Component.scss";
+import "./../Components/_Component.scss";
 import ImgMobile from "./../images/image-product-mobile.jpg";
 import Cart from "./../images/icon-cart.svg";
 
 const Component = () => {
   return (
     <div className="container">
-      <div className="container_image">
-        <img src={ImgMobile} alt="parfume" />
-      </div>
+      <img src={ImgMobile} alt="parfume" />
       <div className="container_info">
         <p>PERFUME</p>
         <h1>Gabrielle Essence Eau De Parfum</h1>
