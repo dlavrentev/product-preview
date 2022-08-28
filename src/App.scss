@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,6 +8,7 @@
 
 body {
   background-color: #f2eae2;
+  font-size: 14px;
 }
 
 // Devices 
@@ -18,8 +21,8 @@ $desktopWidth: 1440px;
 $primaryGreen: hsl(158, 36%, 37%);
 $primaryCream: hsl(158, 36%, 37%);
 
-$neutralGreen: hsl(158, 36%, 37%);
-$neutralGreen: hsl(158, 36%, 37%);
-$neutralGreen: hsl(158, 36%, 37%);
+$neutralDarkBlue: hsl(212, 21%, 14%);
+$neutralBlue: hsl(228, 12%, 48%);
+$neutralWhite: hsl(0, 0%, 100%);
 
 
