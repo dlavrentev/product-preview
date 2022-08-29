@@ -1,6 +1,12 @@
 @import "./../Styles/Variables";
 @import "./../App.scss";
 
+h1,
+p {
+  font-family: "Montserrat";
+  font-style: normal;
+}
+
 .container {
   width: 343px;
   background-color: $neutralWhite;
@@ -19,8 +25,6 @@
   width: 85%;
   margin: 24px 0;
   .category {
-    font-family: "Montserrat";
-    font-style: normal;
     font-weight: 500;
     font-size: 0.75rem;
     line-height: 0.9rem;
@@ -29,7 +33,6 @@
   }
   .product {
     font-family: "Fraunces";
-    font-style: normal;
     font-weight: 700;
     font-size: 2rem;
     line-height: 2rem;
@@ -37,8 +40,6 @@
     margin: 12px 0 16px 0;
   }
   .desc {
-    font-family: "Montserrat";
-    font-style: normal;
     font-weight: 500;
     font-size: 0.875rem;
     line-height: 23px;
@@ -51,7 +52,6 @@
   }
   .newprice {
     font-family: "Fraunces";
-    font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 32px;
@@ -59,8 +59,6 @@
     margin-right: 19px;
   }
   .oldprice {
-    font-family: "Montserrat";
-    font-style: normal;
     font-weight: 500;
     font-size: 13px;
     line-height: 23px;
@@ -78,7 +76,14 @@
     outline: none;
     height: 3rem;
   }
+  button p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+  }
   img {
     width: 1rem;
+    margin-right: 12px;
   }
 }

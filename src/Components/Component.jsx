@@ -19,7 +19,7 @@ const Component = () => {
           <p className="oldprice">$169.99</p>
         </div>
         <button>
-          <img src={Cart} alt="cart" /> Add to Cart
+          <img src={Cart} alt="cart" /> <p>Add to Cart</p>
         </button>
       </div>
     </div>
